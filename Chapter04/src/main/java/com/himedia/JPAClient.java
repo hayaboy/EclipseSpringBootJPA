@@ -17,7 +17,7 @@ public class JPAClient {
 		EntityManagerFactory emf=Persistence.createEntityManagerFactory("Chapter04");
 		EntityManager em=emf.createEntityManager();
 		
-		// Transaction 생성  
+		// Transaction 생성    
 				EntityTransaction tx = em.getTransaction();
 				
 				//Transaction 시작
